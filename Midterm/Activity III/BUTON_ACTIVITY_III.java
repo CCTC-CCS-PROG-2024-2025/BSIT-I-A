@@ -1,5 +1,4 @@
 import java.ulit.scanner;
-import java.util.Scanner;
  class BUTON_ACTIVITY_III {
     public static void main (String[] args) {
     Scanner sc = new scanner(System.In);
@@ -9,7 +8,7 @@ import java.util.Scanner;
 
     while (timer >= 0 ) {
         System.out.println(timer);
-        timer ==;
+        timer --;
     }
     scanner.close();
 }
