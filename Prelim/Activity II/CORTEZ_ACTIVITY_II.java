@@ -1,7 +1,22 @@
-class CORTEZ_ACTIVITY_II
-public static void main(String[] args){
-    System.out.println("John Ford P Cortez");
-    System.out.println(18);
-    System.out.println(19);
-    System.out.println(18-19);
-} 
+import java.util.Scanner;
+
+class CORTEZ_ACTIVIY_II{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age");
+        int age = sc.nextInt();
+
+        // lets goooo //
+        
+        if(age <= 11){
+            System.out.println("Child");
+        }
+        else if(age <=17){
+            System.out.println("Teen");
+        }
+        else if(age <=64){
+            System.out.println("Adult");
+        }
+    }   
+}
+ 
