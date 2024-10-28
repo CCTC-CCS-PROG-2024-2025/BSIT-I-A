@@ -8,7 +8,7 @@ class PANLAAN_ACTIVITY_III {
 
             while(sec>=0){
             System.out.println(sec);
-            sec++;
+            sec--;
         }
     }
  }
