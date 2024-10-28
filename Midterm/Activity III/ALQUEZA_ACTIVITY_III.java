@@ -2,11 +2,14 @@ import java.util.Scanner;
 
 public class ALQUEZA_ACTIVITY_III {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int x = 5;
-        while (x >= 0){
-            System.out.println(x);
-            x--;
+        System.out.println("Enter Number");
+        int second = sc.nextInt();
+
+        while (second >= 0){
+            System.out.println(second);
+            second--;
 
         } 
     }
