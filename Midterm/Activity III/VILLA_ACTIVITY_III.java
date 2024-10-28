@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
-public class VILLA_ACTIVITY_III {
-    public static void main(String[]args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER NUMBER");
-        int x = sc.nextInt() ;
-        while(x > -1){
-             System.out.println(x);
-             x = x-1;
+class VILLA_ACTIVITY_III {
+    public static void main(String[] args) {
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Input timer: ");
+        int x = sc.nextInt();
+
+        do{
+            System.out.println(x);
+            x++;
+        }   while(x <= 5);
         }
+    }
+    
 
-
-    sc.close();
-}
-}
