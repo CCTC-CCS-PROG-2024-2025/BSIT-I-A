@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CAPAROSO_ACTIVITY_II{
+public class DIMCO_ACTIVITY_II{
 
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
