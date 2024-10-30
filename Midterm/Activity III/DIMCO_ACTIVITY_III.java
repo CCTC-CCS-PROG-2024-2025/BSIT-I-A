@@ -1,21 +1,20 @@
 import java.util.Scanner;
 
-public class CAPAROSO_ACTIVITY_II{
+public class DIMCO_ACTIVITY_III {
 
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Enter the age: ");
-        int age = sc.nextInt();
+        System.out.print("Enter a number : ");
+        int x = sc.nextInt();
 
-        if(age >=0 && age <= 11) {
-            System.out.println("Child");
-        }
-        else if (age >= 12 && age <= 17){
-            System.out.println("Teen");
-        }
-        else if (age >= 18 && age <= 64){
-            System.out.println("Adult");
-        }
+       int y = x;
+
+       do {
+        System.out.println(y);
+        y--;
+       } while (y >= 1);
+
+       sc.close();
+
     }
 }
