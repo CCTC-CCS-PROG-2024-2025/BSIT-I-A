@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class class ARGONCILLO_ACTIVITY_VI_java {
+public class ARGONCILLO_ACTIVITY_VI_java {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.In);
