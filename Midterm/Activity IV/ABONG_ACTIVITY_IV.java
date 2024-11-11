@@ -10,7 +10,7 @@ public class ABONG_ACTIVITY_IV {
         fact *= i;
         i++;
     }
-    System.out.println("the fact of "+ num + " is 3"+ fact);
+    System.out.println("the fact of "+ num + " is "+ fact);
  }
 
 }
