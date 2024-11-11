@@ -1,15 +1,19 @@
-import java.ulit.scanner;
- class BUTON_ACTIVITY_III {
-    public static void main (String[] args) {
-    Scanner sc = new scanner(System.In);
-    System.out.println();
-    System.out.print("Enter Timer:");
-    int timer = scanner.nextInt();
+import java.util.Scanner;
 
-    while (timer >= 0 ) {
-        System.out.println(timer);
-        timer --;
+class BUTON_ACTIVITY_III {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int x = sc.nextInt();
+
+        int y = x;
+
+        do {
+            System.out.println(y);
+            y--;
+        } while (y >= 1);
+
+        sc.close();
     }
-    scanner.close();
 }
- }
