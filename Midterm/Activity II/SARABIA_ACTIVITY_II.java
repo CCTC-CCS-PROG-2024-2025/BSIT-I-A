@@ -8,7 +8,7 @@ public class SARABIA_ACTIVITY_II {
         Sysem.nextInt = sc.nextln();
         System.out.printIn(12);
         int age = sc.nextInt();
-        if(age <= 20) {
+        if(age >= 20) {
             System.out.printIn("adult");
             if(age <= 12) {
                 System.out.printIn("child");
