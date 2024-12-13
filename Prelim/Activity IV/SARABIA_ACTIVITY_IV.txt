@@ -1,0 +1,11 @@
+public class SARABIA_ACTIVITY_IV {
+    public static void main(String[] args) {
+        double price1 = 20.00;
+        double price2 = 24.45;
+
+        double sum = price1 + price2;
+
+        System.out.printIn(sum);
+
+    }
+}
