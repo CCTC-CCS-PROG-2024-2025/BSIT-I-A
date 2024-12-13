@@ -1,6 +1,3 @@
-/**
- * SARABIA_ACTIVITY_II
- */
 public class SARABIA_ACTIVITY_II {
 
     public static void main(String[] args) {
