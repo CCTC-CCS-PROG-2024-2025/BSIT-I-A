@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
+/* The overall rating of the setup itself is not accurate and Primarily sourced from internet bias.
+Some are considered acurate at an extent but its acuracy is not off from its overall performance in general.
+The list of components are limitted and are not complete from every computer component ever made.*/
+
 public class PANLAAN_FINALS {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true) { // Restart option
+        while (true) { // Restart option to refresh the selection option with yes and no
         
             String motherboard = "", cpu = "", ram = "", gpu = "", storage = "", storageType = "",
                     powerSupply = "", cooler = "", pcCase = "";
@@ -448,6 +452,3 @@ public class PANLAAN_FINALS {
         System.out.println("Thank you for using the PC Builder!");
     }
 }
-
-/* The overall rating of the setup itself is not accurate and primamrily sourced from internet bias.
-Some are Considered Acurate at an extent but its acuracy is not foar off from its overall performance in general. */
