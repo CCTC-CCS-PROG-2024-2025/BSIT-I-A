@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class DIMCO_FINALS {
+    
+    public static void main(String[] args) {
+        // Declare and initialize variables
+        int age = 19;
+        String name = "Laurence";
+
+        // Conditional statement (if-else)
+        if (age >= 18) {
+            System.out.println(name + " is an adult.");
+        } else {
+            System.out.println(name + " is a minor.");
+        }
+
+        // Looping (for loop)
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration " + i);
+        }
+
+        // Looping (while loop)
+        int count = 1;
+        while (count <= 3) {
+            System.out.println("Count: " + count);
+            count++;
+        }
+
+        // Switch statement
+        int day = 3;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+}
