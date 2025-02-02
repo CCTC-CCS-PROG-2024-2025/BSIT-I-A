@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class CANEZARES_ACTIVITY_I {
+class MACAPOBRE_ACTIVITY_I {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String [] names = new String[5];
