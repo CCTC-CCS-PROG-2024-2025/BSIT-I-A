@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class CAMINGAO_ACTIVITY_I {
     static void aboutMe () {
         String name = "Nhovie Camingao";
