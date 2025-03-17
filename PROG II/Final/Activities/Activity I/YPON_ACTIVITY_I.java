@@ -1,6 +1,6 @@
 class YPON_ACTIVITY_I {
   static void aboutMe() {
-    String name = "Kyla Mae Ypon";
+    String name = "Kyla Mae Q. Ypon";
     int age = 19;
     String address = "Mainggit Sto. Nino, Toledo City, Cebu.";
 
