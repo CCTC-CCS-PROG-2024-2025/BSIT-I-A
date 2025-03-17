@@ -6,9 +6,9 @@ public class CASERIAL_ACTIVITY_I {
     }
 
     public static void main(String[] args) {
-        String name = "James Ivan";
+        String name = "Clint";
         int age = 19;
-        String address = "Carmen, Toledo City";
+        String address = "Sangi, Toledo City";
 
         
         aboutMe(name, age, address);
