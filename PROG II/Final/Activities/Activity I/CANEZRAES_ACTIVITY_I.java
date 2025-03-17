@@ -4,7 +4,7 @@ class CANEZRAES_ACTIVITY_I{
         int AGE = 18;
         String ADDRESS = "Tanibag, Pinamungajan, Cebu";
 
-        System.out.print("Hello my name is "+ NAME + "."+" I'm "+ AGE + " years old. "+" And I live in "+ ADDRESS);
+        System.out.print("Hello my name is "+ NAME + "."+" I'm "+ AGE + " years old. "+" Currently living in "+ ADDRESS);
     }
     public static void main(String[] args){
         aboutMe();
