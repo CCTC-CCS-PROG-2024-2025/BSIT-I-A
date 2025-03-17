@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class ABONG_ACTIVITY_1 {
     static void aboutMe () {
         String name = "Lebron James D. Abong";
