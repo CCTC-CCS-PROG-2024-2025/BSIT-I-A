@@ -10,8 +10,8 @@ class DIMCO_ACTIVITY_I {
         int age = 19;
         String address = "Luray 1 Toledo City";
 
-        System.out.println("My name is " + name + ".");
-        System.out.println("I am " + age + " years old.");
-        System.out.println("I live at " + address + ".");
+        System.out.println("My name is " +" "+ name + "," + "I am " + age + " years old." + "I live at " + address + ",");
+        
+        
     }
 }
