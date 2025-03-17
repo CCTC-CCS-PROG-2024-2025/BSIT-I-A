@@ -1,15 +1,15 @@
-public class ANGCO_ACTIVITY_I{
-public static void aboutMe(String name, int age, String address){
-    System.out.println("Hello, my name is: " + name + ". and I am: " + age + " years old. I live in: " + address + ".");
+public class ANGCO_ACTIVITY_I {
+
+    public static void aboutMe(){
+        String name ="Laberne Angco";
+        int age = 20;
+        String address = "Toledo City, Cebu";
+        System.out.println("\nHello, my name is " + name + ". I am " + age + " years old. I live in " + address + ".\n");
 }
     public static void main(String[] args){
-String name ="Laberne Angco";
-int age = 20;
-String address = "Toledo City, Cebu";
 
-aboutMe(name, age, address);
- }
-  }
-
-
+        aboutMe();
+ 
+    }   
+}
 
