@@ -1,14 +1,12 @@
 class ZAMORA_ACTIVITY_I {
-    static void aboutMe(){
-        String name = "DANIELLE ANDREI ZAMORA";
+    
+    public static void aboutMe() {
+        String name = "Danielle Andrei Zamora";
         int age = 19;
-        String adress = "Lawis, Luray 2 Toledo City";
-
-        System.out.println("My name is " +" "+ name + "," + " I am " + age + "  years old "+ "," + "I live in" + " "+ adress);
-        
+        String address = "Luray I, Toledo City, Cebu";
+        System.out.println("My name is " + name + ". I am " + age + " years old. I live in " + address + ".");
     }
     public static void main(String[] args) {
         aboutMe();
     }
-
 }
